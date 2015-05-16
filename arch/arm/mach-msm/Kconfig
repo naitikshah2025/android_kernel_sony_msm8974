@@ -2079,6 +2079,12 @@ config CPU_VOLTAGE_TABLE
 	help
 	  DTS based kernel User Votlage Control
 
+config FAST_HOTPLUG
+	bool "Enable fast hotplug"
+	default n
+	help
+	  Kernel based core control.
+
 config MSM_AVS_HW
 	bool "Enable Adaptive Voltage Scaling (AVS)"
 	default n
